@@ -152,7 +152,8 @@ span{
 
     .person-1, .person-2, .person-3{
         width: 26%;
-        transition: position 1.5s, box-shadow 400ms;
+        transition: transform 300ms, box-shadow 400ms;
+        margin-bottom: 0px;
     }
     /* .person-2{
         position: relative;
@@ -163,9 +164,8 @@ span{
         top: 2em;
     } */
     .person-1:hover, .person-2:hover, .person-3:hover{
-        position: relative;
-        top: -1em;
-        box-shadow: 10px 5px 5px hsl(300, 48%, 13%);
+        transform: translateY(-0.75em);
+        box-shadow: 0px 10px 7px hsl(300, 48%, 13%);
     }
     .review-cards{
         display: flex;
