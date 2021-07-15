@@ -152,7 +152,7 @@ span{
 
     .person-1, .person-2, .person-3{
         width: 26%;
-        transition: position 1s, box-shadow 400ms;
+        transition: position 1.5s, box-shadow 400ms;
     }
     /* .person-2{
         position: relative;
