@@ -100,11 +100,12 @@ span{
     }
 
     main{
-        max-width: 1100px;
+        max-width: 1090px;
     }
 
     .column{
         display: flex;
+        margin-bottom: 20px;
     }
     
     header{
@@ -117,12 +118,13 @@ span{
         margin-left: 0em;
         margin-top: 0em;
         font-size: 2.7em;
-        margin-bottom: 0.25em;
+        margin-bottom: 20px;
         line-height: 1em;
     }
     .intro{
         width: 70%;
         text-align: left;
+        margin-bottom: 0em;
     }
     .extra{
         display: inline-block;
@@ -135,11 +137,13 @@ span{
         width: 70%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: flex-end;
         align-items: flex-end;
     }
     .card-1, .card-2, .card-3{
         width: 80%;
+        margin-bottom: 0px;
+        margin-top: 20px;
     }
     .card-1{
         position: relative;
@@ -149,7 +153,9 @@ span{
         position: relative;
         right: 10%;
     }
-
+    .card-3{
+        margin-bottom: 0em;
+    }
     .person-1, .person-2, .person-3{
         width: 26%;
         transition: transform 300ms, box-shadow 400ms;
